@@ -31,5 +31,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', ListarMidiasAPIView.as_view(), name='home'),
     #path('midia/<int:pk>/', MidiaAPIView.as_view(), name='midia'),
-    # path('', include(routers.urls)),
+    #path('', include(routers.urls)),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

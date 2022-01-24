@@ -1,2 +1,2 @@
-web: gunicorn desafio_opencv.wsgi
+web: gunicorn --pythonpath desafio_opencv desafio_opencv.wsgi
 heroku ps:scale web=1

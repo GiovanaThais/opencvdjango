@@ -1,4 +1,9 @@
-from matplotlib.pyplot import gray
+import matplotlib
+
+
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+#from matplotlib.pyplot import gray
 import cv2
 
 #chamando filtros definidos no jupyter notebook

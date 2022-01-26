@@ -1,1 +1,1 @@
-web: gunicorn  desafio_opencv.wsgi --log-file -
+web: gunicorn desafio_opencv.wsgi --log-file -

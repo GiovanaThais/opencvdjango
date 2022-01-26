@@ -6,6 +6,10 @@ from PIL import Image
 import numpy as np
 from io import BytesIO
 from django.core.files.base import ContentFile
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+import _tkinter
 
 #funcao pra receber as imagens e gerar endereço
 def upload_image_midias(instance, filename):

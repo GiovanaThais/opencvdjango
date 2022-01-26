@@ -1,1 +1,1 @@
-web: gunicorn  desafio_opencv:app
+web: gunicorn  desafio_opencv.wsgi
